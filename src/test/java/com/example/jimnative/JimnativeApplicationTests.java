@@ -24,7 +24,7 @@ class JimnativeApplicationTests {
 				.uri("/employees/1")
 				.exchange()
 				.expectStatus().is2xxSuccessful()
-				.expectBody().jsonPath("name").isEqualTo("reactive bob");
+				.expectBody().jsonPath("name").isEqualTo("reactive one");
 	}
 
 }
